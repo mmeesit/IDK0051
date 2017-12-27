@@ -1,0 +1,114 @@
+JOOP --
+Loengutestid: 
+	7. nädal
+	16. nädal
+	järgi teha ei saa
+Kontrolltööd:
+	7. nädal
+	15. nädal
+Eksam:
+	20% ainemahust
+	kodus teeme, siis kaitsmine
+Nöuded aine läbimiseks:
+	51% teooriapunkte
+	51% mölemast kontrolltööst
+	51% eksam
+
+---------------- ESIMENE LOENG ----------------
+
+Põhiteemad:
+	Objektid ja disain
+	Realisatsiooni varjamine, API disain
+	Andmetüüpide disain, vood
+	Polümorfism, ülelaadimine, ülekirjutamine
+	JVM tööpöhimötted
+	Liidesed, erindid. Tüübituvastus
+	Kapseldamine. Kompositsioon
+	Töö löimedes (threads), paralleeltöö
+	Predikaadid, lambdad. Spring Boot
+
+Peale esimest kontrolltööd läheb raskeks, paralleeltööst alates
+Kodutööd tuleb köik ära teha, muidu läheb päris raskeks
+Tuleb osaleda vöimalikult palju loengutes ja praktikumides
+PLANEERIGE IGAL NÄDALAL AEGA KODUTÖÖKS, vähemalt poolteist tundi nädalas selleks
+kui soovite nöu, küsige konsultatsiooni
+
+-- JAVA ja JVM --
+
+1) Java programmikood - kirjutate Javas
+2) Kompilaator: baitkood - javac
+3) Java VM käivitab baitkoodi - Java Hotspot
+
+-- Objektid --
+Klass - tüüp definitsioon
+Objekt - klassist tehtud konkreetne eksemplar 
+
+Student s = new Student(17);
+	s on viide objektile
+	Student on loodava objekti tüüp
+	Student() on konstruktori väljakutse, tagastab viite objektile (new)
+	17 on loodava objekti argument konstruktorile
+
+-- Static typing --
+
+Muutuja tüüp on teada kompileerimise ajal, muuta ei saa, see vähendab vigade hulka programmi töö ajal NÄITEKS: Java, C++
+ALTERNATIIV:
+
+-- DYNAMIC TYPING --
+
+static typingus sa annad muutujale kohe tüübi, php-s näiteks saad lampi muuta, et alguses on integer, echod välja ja siis annad string väärtuse ja echod uuesti. lammaste teema
+
+EHK Dynamic Typingus saad tüüpi läbivalt muuta
+
+-- Duck typing --
+
+Student.run()
+Car.run()
+
+Paneme nad ArrayList-i, mis on Object-tüüpi, siis neid run-e ei saa käivitada, sest Objectil pole run meetodi
+
+-- Klass --
+
+Koosneb konstruktorist, väljadest ehk muutujatest, meetoditest. Konstruktor vöib olla loodud kompilaatori poolt
+
+-- Nähtavus --
+
+Iga klass, väli ja meetod omab nähtavust:
+	Ülemise taseme klassil:
+	public - nähtav köigile
+	package-private - package sees nähtav
+
+-- Nimetamine --
+
+Konstruktoril on sama nimi, mis klassil !!!
+Failil samuti sama nimi, mis klassil !!!
+
+-- Koodi vormindus --
+
+Klassi nimi suure tähega CamelCase
+Konstruktori nimi samamoodi
+Failinimi, sama mis klassil
+
+Meetodid väikese tähega camelCase
+Igasse faili kirjutage üks klass !!
+
+NÄHTAVUS ON KA SLAIDI PEAL OLEMAS, vaata üle
+
+-- Konstruktor --
+
+Konstruktor tagastab viite objektile, käivitatakse alati kui klassist objekti luuakse.
+
+-- Staatiline meetod ja väli --
+
+-- STATIC --
+
+Staatiline meetod kasutatakse näiteks algoritmide loomisel, valemite realiseerimisel jms
+
+-- Kus Java asub ? --
+
+
+
+
+---------------- ESIMENE PRAX ----------------
+
+
